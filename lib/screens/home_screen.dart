@@ -26,7 +26,6 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 20),
               const CardHabilidades(),
               const SizedBox(height: 20),
-
               Center(
                 child: ElevatedButton.icon(
                   style: ElevatedButton.styleFrom(
@@ -53,7 +52,6 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
               const SizedBox(height: 20),
             ],
           ),

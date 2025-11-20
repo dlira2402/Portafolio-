@@ -1,16 +1,37 @@
-# dlira_portafolio
+## 📱 Portafolio Personal – Daniel Lira
+Aplicación creada para la materia Programación 3
 
-A new Flutter project.
+Esta aplicación es un portafolio personal desarrollado como proyecto académico. Su objetivo es presentar información sobre mí de una forma sencilla, ordenada y visualmente agradable. Aquí se muestra quién soy, mis hobbies, mis habilidades y mis datos de contacto, todo dentro de una interfaz moderna construida con Flutter.
 
-## Getting Started
+# 🎯 ¿Qué hace esta aplicación?
 
-This project is a starting point for a Flutter application.
+La aplicación permite explorar distintas secciones relacionadas conmigo:
 
-A few resources to get you started if this is your first Flutter project:
+# 👤 Sobre mí
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Una tarjeta principal donde presento quién soy y un botón que lleva a mi información de contacto.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🎮 Hobbies
+
+Una pantalla dedicada a mis pasatiempos, como jugar videojuegos (FIFA, Call of Duty y Valorant) y hacer páginas web.
+
+# 🛠️ Habilidades
+
+Tarjetas con algunos de los lenguajes o tecnologías que conozco, acompañadas de sus respectivos íconos.
+
+# 📇 Contacto
+
+Una vista con mis datos básicos: nombre, carrera, universidad, formas de contacto y una imagen de perfil.
+
+# 🧩 ¿Cómo está organizada la app?
+
+La aplicación está construida con una estructura simple y clara:
+
+Una pantalla principal con varias tarjetas informativas.
+
+Navegación hacia otras vistas como Contacto y Hobbies.
+
+Un estilo visual oscuro que da un aspecto profesional y moderno.
+
+Uso de componentes reutilizables para mantener orden y consistencia.
+
