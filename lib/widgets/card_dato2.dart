@@ -38,7 +38,7 @@ class CardDato2 extends StatelessWidget {
               const SizedBox(width: 20),
               const Expanded(
                 child: Text(
-                  'Estudiante de\nIngeniería de Sistemas',
+                  'Estudiante de Ingeniería de Sistemas',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,

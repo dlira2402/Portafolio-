@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:dlira_portafolio/routes/app_routes.dart';
+
 
 class CardMiPerfil extends StatelessWidget {
   const CardMiPerfil({super.key});
@@ -36,7 +38,7 @@ class CardMiPerfil extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Hola 👋 soy un desarrollador junior de Flutter',
+              'Hola soy Daniel Lira 👋 desarrollador junior de Flutter',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 26,
@@ -54,7 +56,12 @@ class CardMiPerfil extends StatelessWidget {
                 padding:
                     const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(
+                  context,
+                  AppRoutes.menuOptions[2].route, 
+                );
+              },
               icon: const Icon(Icons.person, size: 18),
               label: const Text('Contactame'),
             ),
